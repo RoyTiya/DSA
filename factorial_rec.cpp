@@ -21,5 +21,12 @@ int main()
     int n;
     cout<<"Enter :";
     cin>>n;
-    cout<<fact(n);
+    if(fact(n)==-1)
+    {
+        cout<<"Factorial doesn't exist";
+    }
+    else
+    {
+        cout<<"Factorial of "<<n<<" is "<<fact(n);
+    }
 }
