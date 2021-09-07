@@ -43,6 +43,7 @@ int noOfWords(string str)
     
     return word;
 }
+
 string validPassword()
 {
     string str;
@@ -81,6 +82,7 @@ string validPassword()
         return ("Invalid Password");
     }
 }
+
 string dictionary(string s1, string s2)
 {
     for(int idx1=0, idx2=0 ; s1[idx1]!='\0',s2[idx2]!='\0' ; idx1++,idx2++ )
@@ -110,6 +112,7 @@ int noOfVowels(string str)
     }
     return vowel;
 }
+
 string reverseString(string str)
 {
     string reverse(str);
